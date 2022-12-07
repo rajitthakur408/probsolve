@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // will run a loop given number of times until i <= 0
+    // then will run one more loop inside previous loop till first iteration times and will add the * in that line 
+    // then will do -- to the iteration
+   function starpattern(Num) {
+    
+    for(let i = Num; i > 0; i-- ){
+        let line = '';
+        for(let j = 0; j < i; j++ ){
+         line = line + '*'}
+
+         console.log(line);
+    }}
+</script>
+</html>
